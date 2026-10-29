@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>Lift Log（重訓日誌）隱私權政策</h1>
-<p>最後更新：2026 年 10 月 26 日</p>
+<p>最後更新：2026 年 10 月 30 日</p>
 <h2>你的訓練資料不離開裝置</h2>
 <p>你輸入的所有資料（動作、課表、訓練紀錄、體重）只儲存在你的裝置上的本機資料庫，不會傳送到我們或任何第三方的伺服器（你自己的 Google 帳戶備份除外，見下方「備份」）。app 沒有帳號系統；免費版僅使用 Google Firebase Analytics 收集匿名的使用統計（見下方「使用統計」）。</p>
 <h2>廣告</h2>
@@ -25,10 +25,14 @@
 <p>我們也使用 Firebase Remote Config 做 A/B 測試：隨機決定部分使用者是否會看到全螢幕廣告，用來評估廣告對使用體驗的影響。分組依 Firebase 為 app 安裝產生的識別碼，不涉及你的姓名或訓練內容；與使用統計一樣，要在同意選項處理完之後才啟用，購買「移除廣告」後不再抓取。</p>
 <h2>應用程式內購買</h2>
 <p>「移除廣告」是透過 <strong>Google Play</strong> 完成的一次性購買。付款資料由 Google Play 處理，我們不會取得你的付款資訊；購買紀錄綁定你的 Google 帳號，換裝置後可在「設定 › 廣告 › 還原購買」還原。退款依 <a href="https://support.google.com/googleplay/answer/2479637">Google Play 的退款政策</a>辦理。</p>
+<h2>藍牙心率裝置</h2>
+<p>你可以選擇連接支援藍牙標準心率協定的裝置（例如開啟「心率廣播」的手環、心率胸帶）。連接後，app 會在訓練中讀取即時心跳，顯示在休息倒數上，並把每次訓練的平均心跳、最高心跳與樣本數存在你手機上的 app 資料庫，和其他訓練紀錄一樣不會傳送給我們或任何第三方。匯出備份時，這些數值會包含在備份檔中。</p>
+<p>搜尋與連接藍牙裝置需要「附近裝置」權限（Android 11 以下是位置權限，系統要求藍牙搜尋必須有這項權限；app 不會用它取得你的位置）。不使用這項功能就不會要求權限。你可以隨時在設定中移除裝置。</p>
 <h2>權限用途</h2>
 <ul>
   <li><strong>通知、鬧鐘與提醒</strong>：只用來在組間休息結束時提醒你，不會發送其他通知。</li>
   <li><strong>震動</strong>：休息結束時提示。</li>
+  <li><strong>附近裝置（藍牙）</strong>：只在你使用「心率裝置」功能時，用來搜尋並連接你選擇的心率裝置（Android 11 以下是位置權限，僅供系統進行藍牙搜尋，app 不取得你的位置）。</li>
   <li><strong>檔案存取／分享</strong>：只在你主動「匯出備份」或「匯入備份」時，讀寫你選擇的備份檔（Excel .xlsx；匯入也接受舊版的 JSON 檔）。</li>
 </ul>
 <h2>備份</h2>
@@ -41,7 +45,7 @@
 <p>joey.chung@seniordev.tw</p>
 <hr>
 <h1>Lift Log Privacy Policy</h1>
-<p>Last updated: October 26, 2026</p>
+<p>Last updated: October 30, 2026</p>
 <h2>Your training data stays on your device</h2>
 <p>Everything you enter (exercises, routines, workouts, body weight) is stored only in a local database on your device and is never sent to us or to any third party (except your own Google account backup; see “Backups” below). There are no accounts; the free version uses only Google Firebase Analytics for anonymous usage statistics (see “Usage statistics” below).</p>
 <h2>Advertising</h2>
@@ -53,10 +57,14 @@
 <p>We also use Firebase Remote Config for A/B tests: it randomly decides whether some users see full-screen ads, so we can evaluate the effect of ads on the experience. Grouping is based on the identifier Firebase generates for each installation, not on your name or workout content; like usage statistics it is enabled only after the consent choice has been handled, and it is no longer fetched after you purchase “Remove ads”.</p>
 <h2>In-app purchase</h2>
 <p>"Remove ads" is a one-time purchase made through <strong>Google Play</strong>. Payment details are handled by Google Play and never reach us. The purchase is tied to your Google account and can be restored on a new device under Settings › Ads › Restore purchase. Refunds follow <a href="https://support.google.com/googleplay/answer/2479637">Google Play's refund policy</a>.</p>
+<h2>Bluetooth heart rate devices</h2>
+<p>You can choose to connect a device that supports the standard Bluetooth heart rate profile (for example a band with heart rate broadcast turned on, or a chest strap). Once connected, the app reads your live heart rate during workouts, shows it on the rest timer, and stores the average heart rate, maximum heart rate and number of samples for each workout in the app's database on your phone. Like the rest of your workout data, it is never sent to us or to any third party. These values are included when you export a backup.</p>
+<p>Searching for and connecting to Bluetooth devices requires the “Nearby devices” permission (on Android 11 and earlier, the location permission, which the system requires for Bluetooth scanning; the app does not use it to get your location). The permission is only requested if you use this feature, and you can remove the device in Settings at any time.</p>
 <h2>Permissions</h2>
 <ul>
   <li><strong>Notifications, alarms &amp; reminders</strong>: used only to notify you when a rest period ends.</li>
   <li><strong>Vibration</strong>: used for the rest-over cue.</li>
+  <li><strong>Nearby devices (Bluetooth)</strong>: used only when you use the heart rate device feature, to find and connect to the device you choose (on Android 11 and earlier, the location permission, which the system requires for Bluetooth scanning; the app does not get your location).</li>
   <li><strong>File access / sharing</strong>: used only when you explicitly export or import a backup file you choose (Excel .xlsx; import also accepts older JSON files).</li>
 </ul>
 <h2>Backups</h2>
